@@ -3,6 +3,7 @@
 <html>
 <head>
   <title>Oana's Blog</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -10,18 +11,17 @@
     <div id=header>
       <h1>Oana Cos</h1>
       <ul id=nav>
-        <li>Home</li>
+        <li><a href="#header">Home</a></li>
         <li><a href="#section">About Me</a></li>
         <li><a href="#hobbies">Hobbies</a></li>
       </ul>
     </div>
     <br>
-
     <div id=article>
       <div id=section>
         <h2>About Me</h2>
-        <img src="./oanacos.png" alt="Oana Cos picture" width="250px" height="250px">
-          <p>First of all, I am 28 years old, born and raised in Cluj-Napoca. <br>Some <span style="color:#9B59B6">interesting facts</span> about me could be:
+        <img src="pictures/oanacos.png" alt="Oana Cos picture">
+          <p>First of all, I am 28 years old, born and raised in Cluj-Napoca. <br>Some <span>interesting facts</span> about me could be:
             <dl id=interesting_facts>
               <dt><h4>Vegatarian</h4></dt>
                 <dd>I was a <strong>vegetarian</strong> for 4 years and for a couple of months and a <strong>vegan</strong>.</dd>
@@ -39,29 +39,34 @@
       </div>
       <br>
       <br>
-
       <div id=sidebar>
         <h2>Hobbies</h2>
-        <ul id=hobbies style="color:purple">
-          <li>Fitness, Pilates, Yoga</li>
-          <li>Health & Wellbeing</li>
-          <li>Books</li>
-          <li>Travelling</li>
-          <li>Photography</li>
-          <li>Fashion</li>
-          <li>Interior design</li>
+        <ul id=hobbies>
+          <li><div>Fitness, Pilates, Yoga</div></li>
+          <li><div>Health & Wellbeing</div></li>
+          <li><div>Books</div></li>
+          <li><div>Travelling</div></li>
+          <li><div>Photography</div></li>
+          <li><div>Fashion</div></li>
+          <li><div>Interior design</div></li>
       </div>
     </div>
 
-    <div id=footer>
+    <div>
+      <h3>Other blogs</h3>
+      <ul id=otherblogs>
+        <li><a href="#">Ovidiu Marc</a></li>
+        <li><a href="#">Alexandra Ghete</a></li>
+        <li><a href="#">Ovidiu Cimpan</a></li>
+        <li><a href="#">Ioana Nasui</a></li>
+      </ul>
     </div>
 
+    <div id=footer>
+      <p>^^^^^^</p>
+      <a href="#header">back to top</a>
+    </div>
 
-
-
-
-
-
-
+  </div>
 </body>
 </html>
