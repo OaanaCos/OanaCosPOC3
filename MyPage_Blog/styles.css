@@ -1,0 +1,43 @@
+body {
+  background-color: #18191A;
+  color: #E4E6EB;
+  font-family: Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #9B59B6;
+}
+
+a:hover {
+  color: #ff9900;
+}
+
+span {
+  color: #ff9900;
+}
+
+li div{
+  color: #9B59B6;
+}
+
+#otherblogs {
+  list-style-type: square;
+}
+
+#otherblogs a {
+  font-style: italic;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+#footer a{
+  color: #ff9900;
+}
+
+#footer a:hover {
+  color: #9B59B6;
+}
